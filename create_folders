@@ -1,0 +1,10 @@
+#!/bin/bash
+for i in {1..10}
+do
+	if [ $i -lt 10 ]
+	then [ $i -lt 10 ]
+		mkdir /root/0$i
+	else
+		mkdir /root/$i
+	fi
+done
