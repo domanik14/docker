@@ -1,4 +1,5 @@
 #!/bin/bash
+#RichardDomanikClarkson
 if [[ $1 != "" ]]
 then
 	docker start $1
