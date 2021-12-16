@@ -5,6 +5,7 @@ then
 	docker start $1
 	docker cp check_folders.sh $1:/
 	docker exec $1 ./check_folders.sh
+	docker exec rm ./check_folders.sh
 	docker stop $1
 else echo "No existe el contenedor"
 fi
